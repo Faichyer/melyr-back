@@ -1,20 +1,13 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "ESNext",
+    "target": "ES6",
     "rootDir": "src/",
     "outDir": "build/",
     "sourceMap": true,
     "esModuleInterop": true,
-    "typeRoots": ["types/"],
+    "typeRoots": ["node_modules/@types"],
     "strict": true,
     "strictNullChecks": false
   },
-  "ts-node": {
-    "files": true
-  },
-  "files": [
-    "types/modules.d.ts",
-    "types/nodejs.d.ts"
-  ]
 }
