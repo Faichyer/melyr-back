@@ -3,7 +3,8 @@
   "description": "Api for Melyr, your lyrics reminder",
   "main": "build/app.js",
   "scripts": {
-    "start": "nodemon",
+    "dev": "nodemon",
+    "start": "node build/app.js",
     "build": "tsc",
     "lint": "eslint . --ext .ts"
   },
