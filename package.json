@@ -1,6 +1,4 @@
 {
-  "name": "melyr",
-  "description": "Api for Melyr, your lyrics reminder",
   "main": "build/app.js",
   "scripts": {
     "dev": "nodemon",

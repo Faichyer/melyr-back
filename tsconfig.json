@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "ES6",
+    "target": "ESNext",
     "rootDir": "src/",
     "outDir": "build/",
     "sourceMap": true,
     "esModuleInterop": true,
     "typeRoots": ["src/types"],
     "strict": true,
-    "strictNullChecks": false
-  },
+    "strictNullChecks": false,
+    "allowJs": true
+  }
 }

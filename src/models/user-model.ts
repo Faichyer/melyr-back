@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 import { Document, Model, Mongoose, Schema } from 'mongoose';
 const mongooseToJson = require('@meanie/mongoose-to-json');
 import ServiceContainer from '../services/service-container';
@@ -36,7 +35,7 @@ export default function createModel(container: ServiceContainer, mongoose: Mongo
  * @returns User schema
  */
 function createUserSchema(container: ServiceContainer) {
-  const schema = new Schema({
+  const schema = new Schema<UserInstance>({
     email: {
       type: Schema.Types.String,
       required: [true, 'Email is required'],
